@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="AutoVinScan - Trusted Car History Reports">
+    <meta name="description" content="AutoVinScan provides reliable car history reports, helping you make informed vehicle purchase decisions.">
+    <meta name="keywords" content="AutoVinScan, car history report, vehicle report, VIN check, car details, used car history">
+    <meta name="author" content="AutoVinScan">
+    <title>AutoVinScan - Car History Reports</title>
+
+    <!-- Favicon -->
+    <link href="img/download.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+ <!-- Navbar Start -->
+ <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <img src="img/download.png" alt="Logo" class="navbar-logo me-2">
+        <h2 class="m-0 text-primary"><i class="fa me-2"></i>AutoVinScan</h2>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about-avs.html" class="nav-item nav-link">About</a>
+            <a href="service-avs.html" class="nav-item nav-link">Services</a>
+          </div>
+         </div>
+        </div>
+
+        <a href="avv-pricing.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">View Pricing<i class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+   <!-- Page Header Start -->
+<div class="container-fluid page-header mb-5 p-0" 
+style="background-image: url(img/services\ carousel.png); 
+       background-size: cover; 
+       background-position: center; 
+       height: 500px; /* Increase height */
+       width: 100%;">
+<div class="container-fluid page-header-inner py-5">
+    <div class="container text-center">
+        <h1 class="display-3 text-dark mb-3 animated slideInDown"></h1>
+    </div>
+</div>
+</div>
+<!-- Page Header End -->
+    <ol class="breadcrumb justify-content-center text-uppercase">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item text-dark active" aria-current="page">Services</li>
+    </ol>
+
+      <!-- Service Start -->
+<div class="container-xxl service py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-primary text-uppercase">// AVS Reports //</h6>
+            <h1 class="mb-5">Choose Your AVS Car Report</h1>
+        </div>
+        <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4">
+                <div class="nav w-100 nav-pills me-4">
+                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                        <i class="fa fa-file-alt fa-2x me-3"></i>
+                        <h4 class="m-0">Basic Report</h4>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                        <i class="fa fa-star fa-2x me-3"></i>
+                        <h4 class="m-0">Premium Report</h4>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                        <i class="fa fa-trophy fa-2x me-3"></i>
+                        <h4 class="m-0">Platinum Report</h4>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="tab-content w-100">
+                    <!-- Basic Report -->
+                    <div class="tab-pane fade show active" id="tab-pane-1">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/newreportimg.png" style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-3">Basic AVS Car Report</h3>
+                                <p class="mb-4">Get essential details about a vehicle's history, including accident records, mileage verification, and basic ownership history.</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Basic Accident & Damage Report</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Odometer Check</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Title & Registration Info</p>
+                                <p><i class="fa fa-check text-success me-3"></i>$39.99</p>
+
+                                <a href="basic-book.html" class="btn btn-primary py-3 px-5 mt-3">Get Basic Report <i class="fa fa-arrow-right ms-3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Premium Report -->
+                    <div class="tab-pane fade" id="tab-pane-2">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/newreportimg1.png" style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-3">Premium AVS Car Report</h3>
+                                <p class="mb-4">Includes everything in the Basic report, plus more detailed insights into past repairs, recalls, and service history.</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Full Service & Maintenance Records</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Manufacturer Recalls</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Previous Owners Report</p>
+                                <p><i class="fa fa-check text-success me-3"></i>$79.99</p>
+
+                                <a href="premiumbook.html" class="btn btn-primary py-3 px-5 mt-3">Get Premium Report <i class="fa fa-arrow-right ms-3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Platinum Report -->
+                    <div class="tab-pane fade" id="tab-pane-3">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/newreportimg2.png" style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-3">Platinum AVS Car Report</h3>
+                                <p class="mb-4">The most comprehensive vehicle history report with in-depth details, including market valuation, accident severity, and theft reports.</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Accident Severity & Damage Report</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Stolen Vehicle Check</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Estimated Market Value</p>
+                                <p><i class="fa fa-check text-success me-3"></i>$99.99</p>
+
+                                <a href="platinum-book.html" class="btn btn-primary py-3 px-5 mt-3">Get Platinum Report <i class="fa fa-arrow-right ms-3"></i></a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+   <!-- AVS Car Reports Benefits Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-primary text-uppercase">
+                // Why Choose 
+                <img src="img/download.png" alt="AVS Logo" style="height: 200px; margin-right: 10px;"> //
+            </h6>
+            <h1 class="mb-5">Trusted Car Reports for Confident Decisions</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-car text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Verified Vehicle History</h5>
+                    <p>Get complete details about past ownership, title changes, and accident history.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-shield-alt text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Fraud Protection</h5>
+                    <p>We detect hidden issues like odometer fraud, salvage titles, and stolen vehicles.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-tools text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Service & Repair Records</h5>
+                    <p>Access maintenance history to know if the car has been properly cared for.</p>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-check-circle text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Accurate & Up-to-Date</h5>
+                    <p>We update our reports regularly, ensuring you get the latest data.</p>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-chart-line text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Market Value Analysis</h5>
+                    <p>Compare the car’s price to similar vehicles in the market.</p>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-balance-scale text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Title & Legal Checks</h5>
+                    <p>We verify if a car has a clean title or any pending legal issues.</p>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-bolt text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Instant Reports</h5>
+                    <p>Get your car report delivered quickly with our fast system.</p>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="card benefit-card text-center p-4">
+                    <i class="fas fa-star text-primary fa-5x mb-3"></i>
+                    <h5 class="fw-bold mb-2">Trusted by Thousands</h5>
+                    <p>Over 100,000 satisfied customers rely on AVS for vehicle history reports.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- AVS Car Reports Benefits End -->
+
+   <!-- Testimonial Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="text-primary text-uppercase">// Testimonials //</h6>
+            <h1 class="mb-5">What Our Clients Say!</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Sarah Mitchell</h5>
+                <p>Used Car Buyer</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">AVS saved me from buying a car with a hidden accident history. The report was detailed and accurate. Highly recommended!</p>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">James Carter</h5>
+                <p>First-Time Buyer</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">As a first-time car buyer, I was nervous. AVS provided a report that helped me understand the car’s history and make an informed decision!</p>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Michael Thompson</h5>
+                <p>Car Dealer</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I use AVS reports for every car I sell. It builds trust with my customers and ensures transparency in every transaction!</p>
+                </div>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Emily Rodriguez</h5>
+                <p>Car Enthusiast</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I love classic cars, but finding one with a clean history is tough. AVS helped me find my dream car with confidence!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Address & Contact -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Contact Us</h4>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@autovinscan.online</p>
+              
+            </div>
+            <!-- Opening Hours -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Support Hours</h4>
+                <h6 class="text-light">Monday - Sunday:</h6>
+                <p class="mb-4">24 - 7</p>
+            </div>
+            <!-- Services -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Our Services</h4>
+                <a class="btn btn-link" href="basic-book.html">Basic Vehicle Report</a>
+                <a class="btn btn-link" href="premiumbook.html">Premium Vehicle Report</a>
+                <a class="btn btn-link" href="platinum-book.html">Platinum Vehicle Report</a>
+            </div>
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Subscribe for Updates</h4>
+                <p>Stay updated on the latest car report insights and vehicle safety tips.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright Section -->
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">AVS Car Reports</a>, All Rights Reserved.BRK
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">AVS</a>
+                        <a href="service.html">Services</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
